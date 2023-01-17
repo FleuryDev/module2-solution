@@ -64,3 +64,24 @@ body{
     background-color: coral;
     color: darkblue;
 }
+
+@media screen and (max-width: 992px) {
+
+    .span1, .span2{
+        width: 45%;
+    }
+    .span3{
+        width: 90%;
+    }   
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .span1, .span2{
+        width: 45%;
+    }
+    .span3{
+        width: 90%;
+    }   
+}
