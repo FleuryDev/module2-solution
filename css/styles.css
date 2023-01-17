@@ -16,7 +16,7 @@ body{
 .title{
     position: relative;
     float: left;
-    font-size: 4rem;
+    font-size: 4vh;
     font-style: normal;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -28,6 +28,7 @@ body{
 }
 
 .articles{
+    display: block;
     position: relative;
     float: left;
     width: 30%;
@@ -39,7 +40,7 @@ body{
     font-size: 150%;
 }
 
-.articles span{
+ .span1, .span2, .span3{
     position: relative;
     float: right;
     top: -3vh;
@@ -65,23 +66,29 @@ body{
     color: darkblue;
 }
 
+.content{
+    position: relative;
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+/* for tablet*/
 @media screen and (max-width: 992px) {
 
-    .span1, .span2{
+    .articles{
         width: 45%;
+        margin: 2.5%;
     }
-    .span3{
+    .art3{
         width: 90%;
+        margin: 4.5%;
     }   
 }
 
-
+/* mobil*/
 @media screen and (max-width: 767px) {
-
-    .span1, .span2{
-        width: 45%;
-    }
-    .span3{
+    .articles{
         width: 90%;
+        margin: 4.5%;
     }   
 }
