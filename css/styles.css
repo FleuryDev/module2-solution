@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/******** For desktop  ********/
+
+body{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(194, 198, 202);
+}
+
+.title{
+    position: relative;
+    float: left;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    padding: 3vh;
+    margin-top: 3vh;
+    width: 100%;
+
+}
+
+.articles{
+    position: relative;
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    padding: 3vh;
+    margin: 1.5%;
+    background-color: aquamarine;
+    color: black;
+    font-size: 150%;
+}
+
+.articles span{
+    position: relative;
+    float: right;
+    top: -3vh;
+    right: -3vh;
+    padding: 1vh;
+    font-weight: bolder;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+.span1{
+    background-color: blueviolet;
+    color: darkorange;
+}
+
+.span2{
+    background-color: brown;
+    color: cornsilk;
+}
+
+.span3{
+    background-color: coral;
+    color: darkblue;
+}
